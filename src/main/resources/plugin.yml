@@ -1,0 +1,12 @@
+name: RandomTP
+version: '${project.version}'
+main: com.aly.randomtp.Main
+api-version: 1.19
+authors: [ 4Aly ]
+description: Random TP
+commands:
+  rtp:
+    aliases:
+      - RTP
+      - randomteleport
+      - randomtp

@@ -96,7 +96,7 @@ public class InventoryClick implements Listener {
 
     }
     @EventHandler
-    public void onInventoryClick(final InventoryDragEvent e) {
+    public void onInventoryDrag(final InventoryDragEvent e) {
         Player player = (Player) e.getWhoClicked();
         if (player.getOpenInventory().getTitle().equals(ChatColor.BLUE.toString() + ChatColor.BOLD + "Random Teleport")) {
             System.out.println("test");
